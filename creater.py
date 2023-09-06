@@ -2,7 +2,7 @@ import yaml
 import re
 import base64
 import json
-
+import requests
 emoji = '\U0001F499'
 new_name = "M@M " + emoji
 
@@ -28,7 +28,34 @@ def update_vmess_name(vmess_url, new_name):
     return new_vmess_url
 
 
+def find_location(vmess_url):
+    # Decode the VMess URL
+    vmess_config_base64 = vmess_url.split("://")[1]
+    vmess_config_json = base64.b64decode(vmess_config_base64).decode()
+    vmess_config = json.loads(vmess_config_json)
 
+    # Extract the server address (location)
+    server_address = vmess_config.get("add")
+
+    if server_address:
+        # Use the ip-api.com API to get geolocation information
+        api_url = f"http://ip-api.com/json/{server_address}"
+        response = requests.get(api_url)
+
+        if response.status_code == 200:
+            geolocation_data = response.json()
+            city = geolocation_data.get("city")
+            country = geolocation_data.get("country")
+            return city , country
+            if city and country:
+                print(f"City: {city}, Country: {country}")
+            else:
+                print("City and country information not available.")
+        else:
+            print("Failed to retrieve geolocation information.")
+    else:
+        print("Server address not found in the VMess configuration.")
+    return 0 , 0
 
 
 
@@ -40,6 +67,8 @@ with open(r'H:\GIT project\yaml-creator\urls.txt', 'r') as file:
 for i in range(len(urls)):
     url = urls[i]
     if url.startswith("vmess://"):
+        city ,country = find_location(url)
+        name = new_name  +city + country
         urls[i] = update_vmess_name(url, new_name)
     else:
         urls[i] = re.sub(r'#.*', f'#{new_name}', url)

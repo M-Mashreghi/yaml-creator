@@ -69,7 +69,7 @@ for i in range(len(urls)):
     if url.startswith("vmess://"):
         city ,country = find_location(url)
         name = new_name  +city + country
-        urls[i] = update_vmess_name(url, new_name)
+        urls[i] = update_vmess_name(url, name)
     else:
         urls[i] = re.sub(r'#.*', f'#{new_name}', url)
 

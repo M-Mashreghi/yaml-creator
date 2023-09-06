@@ -3,8 +3,8 @@ import re
 import base64
 import json
 
-
-new_name = "M@M"
+emoji = '\U0001F499'
+new_name = "M@M " + emoji
 
 def update_vmess_name(vmess_url, new_name):
     # Decode the VMess URL
@@ -60,6 +60,6 @@ with open(r'H:\GIT project\yaml-creator\configurations.yaml', 'w') as yaml_file:
     yaml.dump(yaml_data, yaml_file)
 
 # Create a .conf file and write the modified URLs
-with open(r'H:\GIT project\yaml-creator\configurations.conf', 'w') as conf_file:
+with open(r'H:\GIT project\yaml-creator\configurations.conf', 'w', encoding='utf-8') as conf_file:
     for modified_url in urls:
         conf_file.write(f"{modified_url}\n\n")

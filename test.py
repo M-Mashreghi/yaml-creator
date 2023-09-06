@@ -1,36 +1,32 @@
 import base64
 import json
+import requests
 
-def update_vmess_name(vmess_url, new_name):
-    # Decode the VMess URL
-    vmess_url = vmess_url.strip()
-    config_base64 = vmess_url.split("://")[1]
-    config_json = base64.b64decode(config_base64).decode()
+vmess_url = "vmess://eyJhZGQiOiIxNTYuMjI1LjY3LjQ3IiwiYWlkIjoiNjQiLCJob3N0IjoiIiwiaWQiOiIzY2E5MTJkYS02YWMyLTQxOGYtYjljZi00NWI2ZjY5NDU3OWIiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQ5MjI0IiwicHMiOiLwn5+lIFNlcnZlciAxNyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ=="
 
-    # Parse the JSON configuration
-    config = json.loads(config_json)
+# Decode the VMess URL
+vmess_config_base64 = vmess_url.split("://")[1]
+vmess_config_json = base64.b64decode(vmess_config_base64).decode()
+vmess_config = json.loads(vmess_config_json)
 
-    # Update the name field
-    config["ps"] = new_name
+# Extract the server address (location)
+server_address = vmess_config.get("add")
 
-    # Encode the updated configuration as base64
-    updated_config_json = json.dumps(config)
-    updated_config_base64 = base64.b64encode(updated_config_json.encode()).decode()
+if server_address:
+    # Use the ip-api.com API to get geolocation information
+    api_url = f"http://ip-api.com/json/{server_address}"
+    response = requests.get(api_url)
 
-    # Create the new VMess URL
-    new_vmess_url = f"vmess://{updated_config_base64}"
+    if response.status_code == 200:
+        geolocation_data = response.json()
+        city = geolocation_data.get("city")
+        country = geolocation_data.get("country")
 
-    return new_vmess_url
-
-# List of VMess URLs with their respective new names
-vmess_urls = [
-    "vmess://eyJhZGQiOiIxMzcuMTc1LjIyLjE4NyIsImFpZCI6IjY0IiwiaG9zdCI6IiIsImlkIjoiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI1Mzk5OSIsInBzIjoi8J+fpSBTZXJ2ZXIgMDYiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=",
-    "vmess://eyJhZGQiOiIxNTYuMjI1LjY3LjQ3IiwiYWlkIjoiNjQiLCJob3N0IjoiIiwiaWQiOiIzY2E5MTJkYS02YWMyLTQxOGYtYjljZi00NWI2ZjY5NDU3OWIiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQ5MjI0IiwicHMiOiLwn5+lIFNlcnZlciAxNyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ=="
-]
-
-new_name = "M@M"
-
-# Update the names and print the new VMess URLs
-for url in vmess_urls:
-    updated_url = update_vmess_name(url, new_name)
-    print(updated_url)
+        if city and country:
+            print(f"City: {city}, Country: {country}")
+        else:
+            print("City and country information not available.")
+    else:
+        print("Failed to retrieve geolocation information.")
+else:
+    print("Server address not found in the VMess configuration.")

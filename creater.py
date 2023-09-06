@@ -28,7 +28,6 @@ def update_vmess_name(vmess_url, replace_name):
 
     return new_vmess_url
 
-
 def find_location_vmess(vmess_url,new_name):
     # Decode the VMess URL
     vmess_config_base64 = vmess_url.split("://")[1]
@@ -94,8 +93,11 @@ with open(r'H:\GIT project\yaml-creator\urls.txt', 'r') as file:
 for i in range(len(urls)):
     url = urls[i]
     if url.startswith("vmess://"):
-        urls[i] = update_vmess_name(url, new_name)
-        #find_location_vmess(url,new_name)
+        try:
+            name_vmess = find_loc_ss(url,new_name)
+        except:
+            name_vmess = new_name
+        urls[i] = update_vmess_name(url,find_location_vmess(url,new_name))
     elif url.startswith("ss://"):
         try:
             name_ss = find_loc_ss(url,new_name)

@@ -4,6 +4,7 @@ import base64
 import json
 
 
+new_name = "M@M"
 
 def update_vmess_name(vmess_url, new_name):
     # Decode the VMess URL
@@ -39,9 +40,9 @@ with open(r'H:\GIT project\yaml-creator\urls.txt', 'r') as file:
 for i in range(len(urls)):
     url = urls[i]
     if url.startswith("vmess://"):
-        urls[i] = update_vmess_name(url, "M@M")
+        urls[i] = update_vmess_name(url, new_name)
     else:
-        urls[i] = re.sub(r'#.*', '#M@M', url)
+        urls[i] = re.sub(r'#.*', f'#{new_name}', url)
 
 
 # Convert URLs to YAML format

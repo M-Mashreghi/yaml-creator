@@ -1,4 +1,5 @@
-trojan://telegram-id-privatevpns@3.71.252.84:22222?security=tls&sni=trj.rollingnext.co.uk&type=tcp#(S449)%F0%9F%87%A9%F0%9F%87%AAt.me/PrivateVPNs
+configurations:
+- url: trojan://telegram-id-privatevpns@3.71.252.84:22222?security=tls&sni=trj.rollingnext.co.uk&type=tcp#(S449)%F0%9F%87%A9%F0%9F%87%AAt.me/PrivateVPNs
 - url: trojan://telegram-id-directvpn@13.39.146.155:22222?security=tls&sni=trj.rollingnext.co.uk&type=tcp#Our%20Channel%20:%20@DirectVPN
 - url: vless://bfbd0da6-d36b-4e72-8868-96f2eb51b9e3@all.vpncustomize.website:2096?security=tls&sni=uGGkffkuygV2raykufukfkyKuyk-irancel-Mokhabera-Mamad-raitel-MIc.Snapp.monster&type=grpc&serviceName=@VPNCUSTOMIZE#%F0%9F%9F%A7all@oneclickvpnkeys
 - url: vless://c688395a-b36b-4071-974b-bc91ac2ad2c4@986join.outline-vpn.cloud:443?security=tls&sni=edtunnel-b6t.pages.dev&type=ws&path=/&host=edtunnel-b6t.pages.dev#%F0%9F%9F%A7986@oneclickvpnkeys

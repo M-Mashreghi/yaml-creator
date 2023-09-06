@@ -94,7 +94,8 @@ with open(r'H:\GIT project\yaml-creator\urls.txt', 'r') as file:
 for i in range(len(urls)):
     url = urls[i]
     if url.startswith("vmess://"):
-        urls[i] = update_vmess_name(url, find_location_vmess(url,new_name))
+        urls[i] = update_vmess_name(url, new_name)
+        #find_location_vmess(url,new_name)
     if url.startswith("ss://"):
         try:
             name_ss = find_loc_ss(url,new_name)

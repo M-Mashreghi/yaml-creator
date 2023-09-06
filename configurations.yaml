@@ -29,7 +29,7 @@ configurations:
     \ M@M \U0001F499 "
 - url: vmess://eyJhZGQiOiJkZzFhYWEucXdxYS5saW5rIiwiYWlkIjoiMCIsImhvc3QiOiJkZzFhYWEucXdxYS5saW5rIiwiaWQiOiI5YjhiMjIzZC02ZTk2LTQ4N2YtYWQyYi1lYWM0OGE0Y2MwYTIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjgwIiwicHMiOiLwn4ep8J+HqkBNb2JpbGludGVybmV0Me+4j+KDo/CfkYgiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
 - url: "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8=@185.172.113.182:810#\U0001F49A\
-    \ M@M \U0001F499 Tokyo Japan"
+    \ M@M \U0001F499 "
 - url: "ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@145.239.1.100:6679#\U0001F49A M@M\
     \ \U0001F499 Frankfurt am Main Germany"
 - url: "ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@51.77.53.200:4444#\U0001F49A M@M\
@@ -105,7 +105,7 @@ configurations:
 - url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@77.72.5.113:989#\U0001F49A M@M\
     \ \U0001F499 London United Kingdom"
 - url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@77.72.5.150:989#\U0001F49A M@M\
-    \ \U0001F499 London United Kingdom"
+    \ \U0001F499 "
 - url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@185.90.61.153:989#\U0001F49A\
     \ M@M \U0001F499 Oslo Norway"
 - url: "ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@31.172.67.43:443#\U0001F49A M@M\

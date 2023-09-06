@@ -3,8 +3,9 @@ import re
 import base64
 import json
 import requests
-emoji = '\U0001F499'
-new_name = "M@M " + emoji
+emoji1 = '\U0001F49A'
+emoji2 = '\U0001F499'
+new_name = emoji1 + " M@M " + emoji2 + " "
 
 def update_vmess_name(vmess_url, new_name):
     # Decode the VMess URL
@@ -28,7 +29,7 @@ def update_vmess_name(vmess_url, new_name):
     return new_vmess_url
 
 
-def find_location(vmess_url):
+def find_location_vmess(vmess_url,new_name):
     # Decode the VMess URL
     vmess_config_base64 = vmess_url.split("://")[1]
     vmess_config_json = base64.b64decode(vmess_config_base64).decode()
@@ -46,7 +47,8 @@ def find_location(vmess_url):
             geolocation_data = response.json()
             city = geolocation_data.get("city")
             country = geolocation_data.get("country")
-            return city , country
+            name =new_name  + city + ' ' + country
+            return name
             if city and country:
                 print(f"City: {city}, Country: {country}")
             else:
@@ -55,8 +57,33 @@ def find_location(vmess_url):
             print("Failed to retrieve geolocation information.")
     else:
         print("Server address not found in the VMess configuration.")
-    return 0 , 0
+    return new_name
 
+def find_loc_ss(config_str,new_name):
+        # Use regular expressions to extract the IP address from the string
+        ip_match = re.search(r'@(\d+\.\d+\.\d+\.\d+)', config_str)
+        if ip_match:
+                ip_address = ip_match.group(1)
+                # Use the ip-api.com API to get geolocation information
+                api_url = f"http://ip-api.com/json/{ip_address}"
+                response = requests.get(api_url)
+
+                if response.status_code == 200:
+                    geolocation_data = response.json()
+                    city = geolocation_data.get("city")
+                    country = geolocation_data.get("country")
+                    name =new_name  + city + ' ' + country
+                    return name
+                    if city and country:
+                        print(f"City: {city}, Country: {country}")
+                        return city , country
+                    else:
+                        print("City and country information not available.")
+                else:
+                    print("Failed to retrieve geolocation information.")
+        else:
+            print("No IP address found in the configuration string.")
+        return new_name
 
 
 # Read the URLs from the text file
@@ -67,9 +94,13 @@ with open(r'H:\GIT project\yaml-creator\urls.txt', 'r') as file:
 for i in range(len(urls)):
     url = urls[i]
     if url.startswith("vmess://"):
-        city ,country = find_location(url)
-        name = new_name  +city + country
-        urls[i] = update_vmess_name(url, name)
+        urls[i] = update_vmess_name(url, find_location_vmess(url,new_name))
+    if url.startswith("ss://"):
+        try:
+            name_ss = find_loc_ss(url,new_name)
+        except:
+            name_ss = new_name
+        urls[i] = re.sub(r'#.*', f'#{name_ss}', url)
     else:
         urls[i] = re.sub(r'#.*', f'#{new_name}', url)
 

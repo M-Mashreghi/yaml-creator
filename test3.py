@@ -1,12 +1,17 @@
 import re
 import requests
-# Your configuration string
-config_str = "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@77.72.5.113:989#M@M"
+
+import requests
+import re
+
+# Extract the IP address from the given config
+config_str = "trojan://telegram-id-directvpn@13.39.146.155:22222?security=tls&sni=trj.rollingnext.co.uk&type=tcp#💚 M@M 💙"
+
 def find_loc_ss(config_str):
         # Use regular expressions to extract the IP address from the string
-        ip_match = re.search(r'@(\d+\.\d+\.\d+\.\d+)', config_str)
+        ip_match = re.search(r'(?P<ip>\d+\.\d+\.\d+\.\d+)', config_str)
         if ip_match:
-                ip_address = ip_match.group(1)
+                ip_address = ip_match.group("ip")
                 # Use the ip-api.com API to get geolocation information
                 api_url = f"http://ip-api.com/json/{ip_address}"
                 response = requests.get(api_url)

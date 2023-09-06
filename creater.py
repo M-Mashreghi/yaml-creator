@@ -7,7 +7,7 @@ emoji1 = '\U0001F49A'
 emoji2 = '\U0001F499'
 new_name = emoji1 + " M@M " + emoji2 + " "
 
-def update_vmess_name(vmess_url, new_name):
+def update_vmess_name(vmess_url, replace_name):
     # Decode the VMess URL
     vmess_url = vmess_url.strip()
     config_base64 = vmess_url.split("://")[1]
@@ -17,7 +17,7 @@ def update_vmess_name(vmess_url, new_name):
     config = json.loads(config_json)
 
     # Update the name field
-    config["ps"] = new_name
+    config["ps"] = replace_name
 
     # Encode the updated configuration as base64
     updated_config_json = json.dumps(config)
@@ -96,7 +96,7 @@ for i in range(len(urls)):
     if url.startswith("vmess://"):
         urls[i] = update_vmess_name(url, new_name)
         #find_location_vmess(url,new_name)
-    if url.startswith("ss://"):
+    elif url.startswith("ss://"):
         try:
             name_ss = find_loc_ss(url,new_name)
         except:

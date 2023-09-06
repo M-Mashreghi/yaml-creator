@@ -1,23 +1,36 @@
-import re
+import base64
+import json
 
-# List of server URLs
-servers = [
-    "trojan://telegram-id-privatevpns@3.71.252.84:22222?security=tls&sni=trj.rollingnext.co.uk&type=tcp#(S449)%F0%9F%87%A9%F0%9F%87%AAt.me/PrivateVPNs",
-    "trojan://telegram-id-directvpn@13.39.146.155:22222?security=tls&sni=trj.rollingnext.co.uk&type=tcp#Our%20Channel%20:%20@DirectVPN",
-    "vless://bfbd0da6-d36b-4e72-8868-96f2eb51b9e3@all.vpncustomize.website:2096?security=tls&sni=uGGkffkuygV2raykufukfkyKuyk-irancel-Mokhabera-Mamad-raitel-MIc.Snapp.monster&type=grpc&serviceName=@VPNCUSTOMIZE#%F0%9F%9F%A3all@oneclickvpnkeys",
-    "vless://c688395a-b36b-4071-974b-bc91ac2ad2c4@986join.outline-vpn.cloud:443?security=tls&sni=edtunnel-b6t.pages.dev&type=ws&path=/&host=edtunnel-b6t.pages.dev#%F0%9F%9F%A3986@oneclickvpnkeys",
-    "vless://884f9b2c-f0c5-44dd-a68e-3e39ce93bb39@cf-wkrs-pages-vless-aoy.pages.dev:443?security=tls&sni=cf-wkrs-pages-vless-aoy.pages.dev&type=ws&path=/?ed%3D2048&host=cf-wkrs-pages-vless-aoy.pages.dev#%F0%9F%9F%A3cf@oneclickvpnkeys",
-    "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNTZmZDA0YS01ODAyLTQ3ODgtYmJhZi0zZWExNDE0MmU1OTc=@ru-04.feitucloud.com:10103#%F0%9F%9F%A3704@oneclickvpnkeys",
-    "vmess://eyJhZGQiOiI0czQuYWxsYWFuc2VsbC5vbmxpbmUiLCJhaWQiOiIwIiwiaG9zdCI6InRlbGV3ZWJpb24uY29tIiwiaWQiOiIwZDZiYTY2Zi0zYjUxLTQzMjUtODRkMC00ZDlkZDUzMWYwZTkiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsInBvcnQiOiI4NDQzIiwicHMiOiJTVEFSLdit2YXYp9uM2KogQHN0YXJ2MnJheW4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Imh0dHAiLCJ2IjoiMiJ9"
+def update_vmess_name(vmess_url, new_name):
+    # Decode the VMess URL
+    vmess_url = vmess_url.strip()
+    config_base64 = vmess_url.split("://")[1]
+    config_json = base64.b64decode(config_base64).decode()
+
+    # Parse the JSON configuration
+    config = json.loads(config_json)
+
+    # Update the name field
+    config["ps"] = new_name
+
+    # Encode the updated configuration as base64
+    updated_config_json = json.dumps(config)
+    updated_config_base64 = base64.b64encode(updated_config_json.encode()).decode()
+
+    # Create the new VMess URL
+    new_vmess_url = f"vmess://{updated_config_base64}"
+
+    return new_vmess_url
+
+# List of VMess URLs with their respective new names
+vmess_urls = [
+    "vmess://eyJhZGQiOiIxMzcuMTc1LjIyLjE4NyIsImFpZCI6IjY0IiwiaG9zdCI6IiIsImlkIjoiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI1Mzk5OSIsInBzIjoi8J+fpSBTZXJ2ZXIgMDYiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=",
+    "vmess://eyJhZGQiOiIxNTYuMjI1LjY3LjQ3IiwiYWlkIjoiNjQiLCJob3N0IjoiIiwiaWQiOiIzY2E5MTJkYS02YWMyLTQxOGYtYjljZi00NWI2ZjY5NDU3OWIiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQ5MjI0IiwicHMiOiLwn5+lIFNlcnZlciAxNyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ=="
 ]
 
-# Define a function to change the name for each server URL
-def change_server_name(server_url):
-    # Use regular expressions to remove everything after '#' and replace with '#M@M'
-    new_server_url = re.sub(r'#.*', '#M@M', server_url)
-    return new_server_url
+new_name = "M@M"
 
-# Iterate through the list of servers and change the names
-for i, server_url in enumerate(servers):
-    new_server_url = change_server_name(server_url)
-    print(f"Server {i + 1}: {new_server_url}")
+# Update the names and print the new VMess URLs
+for url in vmess_urls:
+    updated_url = update_vmess_name(url, new_name)
+    print(updated_url)

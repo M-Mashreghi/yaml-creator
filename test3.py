@@ -5,7 +5,7 @@ import requests
 import re
 
 # Extract the IP address from the given config
-config_str = "trojan://telegram-id-directvpn@13.39.146.155:22222?security=tls&sni=trj.rollingnext.co.uk&type=tcp#💚 M@M 💙"
+config_str = "trojan://telegram-id-directvpn@13.39.146.155:22222?security=tls&sni=trj.rollingnext.co.uk&type=tcp#💚 M@M 💙 Paris France"
 
 def find_loc_ss(config_str):
         # Use regular expressions to extract the IP address from the string

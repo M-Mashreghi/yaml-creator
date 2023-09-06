@@ -1,6 +1,6 @@
 configurations:
 - url: "trojan://telegram-id-privatevpns@3.71.252.84:22222?security=tls&sni=trj.rollingnext.co.uk&type=tcp#\U0001F49A\
-    \ M@M \U0001F499 "
+    \ M@M \U0001F499 Frankfurt am Main Germany"
 - url: "trojan://telegram-id-directvpn@13.39.146.155:22222?security=tls&sni=trj.rollingnext.co.uk&type=tcp#\U0001F49A\
     \ M@M \U0001F499 Paris France"
 - url: "vless://bfbd0da6-d36b-4e72-8868-96f2eb51b9e3@all.vpncustomize.website:2096?security=tls&sni=uGGkffkuygV2raykufukfkyKuyk-irancel-Mokhabera-Mamad-raitel-MIc.Snapp.monster&type=grpc&serviceName=@VPNCUSTOMIZE#\U0001F49A\
@@ -17,7 +17,7 @@ configurations:
 - url: "vless://884f9b2c-f0c5-44dd-a68e-3e39ce93bb39@542.outline-vpn.cloud:443?security=tls&sni=cf-wkrs-pages-vless-aoy.pages.dev&type=ws&path=/?ed%3D2048&host=cf-wkrs-pages-vless-aoy.pages.dev#\U0001F49A\
     \ M@M \U0001F499 "
 - url: "vless://34de74d3-551a-4033-fc9c-fc36531b971a@104.31.16.65:2053?security=tls&sni=tel.RxV2ray.space&type=ws&path=/&host=tel.RxV2ray.space#\U0001F49A\
-    \ M@M \U0001F499 "
+    \ M@M \U0001F499 Toronto Canada"
 - url: "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNTZmZDA0YS01ODAyLTQ3ODgtYmJhZi0zZWExNDE0MmU1OTc=@ru-03.feitucloud.com:10103#\U0001F49A\
     \ M@M \U0001F499 "
 - url: "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNTZmZDA0YS01ODAyLTQ3ODgtYmJhZi0zZWExNDE0MmU1OTc=@ru-02.feitucloud.com:10102#\U0001F49A\
@@ -26,10 +26,10 @@ configurations:
     \ M@M \U0001F499 "
 - url: vmess://eyJhZGQiOiAiNHM0LmFsbGFhbnNlbGwub25saW5lIiwgImFpZCI6ICIwIiwgImhvc3QiOiAidGVsZXdlYmlvbi5jb20iLCAiaWQiOiAiMGQ2YmE2NmYtM2I1MS00MzI1LTg0ZDAtNGQ5ZGQ1MzFmMGU5IiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIvIiwgInBvcnQiOiAiODQ0MyIsICJwcyI6ICJcdWQ4M2RcdWRjOWEgTUBNIFx1ZDgzZFx1ZGM5OSBBdWJlcnZpbGxpZXJzIEZyYW5jZSIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJodHRwIiwgInYiOiAiMiJ9
 - url: "vless://34de74d3-551a-4033-fc9c-fc36531b971a@95.179.213.70:2053?security=tls&sni=tel.RxV2ray.space&type=ws&path=/&host=tel.RxV2ray.space#\U0001F49A\
-    \ M@M \U0001F499 "
+    \ M@M \U0001F499 Aubervilliers France"
 - url: vmess://eyJhZGQiOiAiZGcxYWFhLnF3cWEubGluayIsICJhaWQiOiAiMCIsICJob3N0IjogImRnMWFhYS5xd3FhLmxpbmsiLCAiaWQiOiAiOWI4YjIyM2QtNmU5Ni00ODdmLWFkMmItZWFjNDhhNGNjMGEyIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6ICI4MCIsICJwcyI6ICJcdWQ4M2RcdWRjOWEgTUBNIFx1ZDgzZFx1ZGM5OSBUb3JvbnRvIENhbmFkYSIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICIiLCAidiI6ICIyIn0=
 - url: "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8=@185.172.113.182:810#\U0001F49A\
-    \ M@M \U0001F499 Tokyo Japan"
+    \ M@M \U0001F499 "
 - url: "ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@145.239.1.100:6679#\U0001F49A M@M\
     \ \U0001F499 Frankfurt am Main Germany"
 - url: "ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@51.77.53.200:4444#\U0001F49A M@M\
@@ -57,7 +57,7 @@ configurations:
 - url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@23.92.127.134:989#\U0001F49A\
     \ M@M \U0001F499 Dublin Ireland"
 - url: "ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@37.19.222.214:443#\U0001F49A M@M\
-    \ \U0001F499 Stockholm Sweden"
+    \ \U0001F499 "
 - url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@121.127.46.147:989#\U0001F49A\
     \ M@M \U0001F499 Stockholm Sweden"
 - url: "ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@143.244.58.102:443#\U0001F49A M@M\
@@ -83,7 +83,7 @@ configurations:
 - url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@89.44.197.156:989#\U0001F49A\
     \ M@M \U0001F499 Sofia Bulgaria"
 - url: "vless://5f84c37f-f153-4abc-b634-859dc6bf90de@104.21.40.164:443?security=tls&sni=volatilizable.4kphotos.website&type=ws&path=/nimws&host=volatilizable.4kphotos.website#\U0001F49A\
-    \ M@M \U0001F499 "
+    \ M@M \U0001F499 Toronto Canada"
 - url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@46.183.185.15:989#\U0001F49A\
     \ M@M \U0001F499 Skopje North Macedonia"
 - url: "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprc2pmdXchc29wIw==@69.50.95.251:9098#\U0001F49A\
@@ -107,11 +107,11 @@ configurations:
 - url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@77.72.5.150:989#\U0001F49A M@M\
     \ \U0001F499 London United Kingdom"
 - url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@185.90.61.153:989#\U0001F49A\
-    \ M@M \U0001F499 Oslo Norway"
+    \ M@M \U0001F499 "
 - url: "ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@31.172.67.43:443#\U0001F49A M@M\
     \ \U0001F499 Moscow Russia"
 - url: "vless://884f9b2c-f0c5-44dd-a68e-3e39ce93bb39@172.66.47.84:443?security=tls&sni=cf-wkrs-pages-vless-aoy.pages.dev&type=ws&path=/?ed%3D2048&host=cf-wkrs-pages-vless-aoy.pages.dev#\U0001F49A\
-    \ M@M \U0001F499 "
+    \ M@M \U0001F499 Toronto Canada"
 - url: "ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@212.102.53.78:443#\U0001F49A M@M \U0001F499\
     \ London United Kingdom"
 - url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@185.180.12.81:989#\U0001F49A\
@@ -120,7 +120,7 @@ configurations:
     \ M@M \U0001F499 Ballerup Municipality Denmark"
 - url: vmess://eyJhZGQiOiAiNjcuMjEuOTUuNzMiLCAiYWlkIjogIjY0IiwgImhvc3QiOiAiIiwgImlkIjogIjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiIiwgInBvcnQiOiAiNTMzMTQiLCAicHMiOiAiXHVkODNkXHVkYzlhIE1ATSBcdWQ4M2RcdWRjOTkgTG9zIEFuZ2VsZXMgVW5pdGVkIFN0YXRlcyIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICIiLCAidiI6ICIyIn0=
 - url: vmess://eyJhZGQiOiAiMTQyLjQuMTI2LjI1IiwgImFpZCI6ICI2NCIsICJob3N0IjogIiIsICJpZCI6ICI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJwb3J0IjogIjUxNzE1IiwgInBzIjogIlx1ZDgzZFx1ZGM5YSBNQE0gXHVkODNkXHVkYzk5IFNhbiBKb3NlIFVuaXRlZCBTdGF0ZXMiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiIiwgInYiOiAiMiJ9
-- url: vmess://eyJhZGQiOiAiMTM3LjE3NS4yMi4xODciLCAiYWlkIjogIjY0IiwgImhvc3QiOiAiIiwgImlkIjogIjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiIiwgInBvcnQiOiAiNTM5OTkiLCAicHMiOiAiXHVkODNkXHVkYzlhIE1ATSBcdWQ4M2RcdWRjOTkgIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogIiIsICJ2IjogIjIifQ==
+- url: vmess://eyJhZGQiOiAiMTM3LjE3NS4yMi4xODciLCAiYWlkIjogIjY0IiwgImhvc3QiOiAiIiwgImlkIjogIjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiIiwgInBvcnQiOiAiNTM5OTkiLCAicHMiOiAiXHVkODNkXHVkYzlhIE1ATSBcdWQ4M2RcdWRjOTkgU2FuIEpvc2UgVW5pdGVkIFN0YXRlcyIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICIiLCAidiI6ICIyIn0=
 - url: "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGbGp1c0dYYVdoZThtQUZhcXdvdHBP@51.141.11.19:39550#\U0001F49A\
     \ M@M \U0001F499 Cardiff United Kingdom"
 - url: vmess://eyJhZGQiOiAiMTU2LjIyNS42Ny40NyIsICJhaWQiOiAiNjQiLCAiaG9zdCI6ICIiLCAiaWQiOiAiM2NhOTEyZGEtNmFjMi00MThmLWI5Y2YtNDViNmY2OTQ1NzliIiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIiLCAicG9ydCI6ICI0OTIyNCIsICJwcyI6ICJcdWQ4M2RcdWRjOWEgTUBNIFx1ZDgzZFx1ZGM5OSBXYXNoaW5ndG9uIFVuaXRlZCBTdGF0ZXMiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiIiwgInYiOiAiMiJ9

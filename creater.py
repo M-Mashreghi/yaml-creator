@@ -29,12 +29,12 @@ for i in range(len(urls)):
         except:
             name_ss = new_name
         urls[i] = re.sub(r'#.*', f'#{name_ss}', url)
-    # elif url.startswith("vless://"):
-    #     try:
-    #         # name_vless = find_loc_ss(url,new_name)
-    #     except:
-    #         name_vless = new_name
-    #     urls[i] = re.sub(r'#.*', f'#{name_vless}', url)
+    elif url.startswith("vless://"):
+        try:
+            name_vless = get_loc.find_loc_vless(url,new_name)
+        except:
+            name_vless = new_name
+        urls[i] = re.sub(r'#.*', f'#{name_vless}', url)
     elif url.startswith("trojan://"):
         try:
             name_trojan = get_loc.find_loc_trojan(url,new_name)

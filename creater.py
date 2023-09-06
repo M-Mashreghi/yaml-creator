@@ -21,6 +21,14 @@ yaml_data = {
 # Save the YAML data to a file
 with open(r'H:\GIT project\yaml-creator\configurations.yaml', 'w') as yaml_file:
     yaml.dump(yaml_data, yaml_file)
+
+
+# Create a .conf file and write the data
+with open('configurations.conf', 'w') as conf_file:
+    for configuration in yaml_data["configurations"]:
+        conf_file.write(f"[{configuration['name']}]\n")
+        conf_file.write(f"url={configuration['url']}\n")
+        conf_file.write("\n")
 # your link goes here
 link = "https://github.com/M-Mashreghi/yaml-creator/blob/main/configurations.yaml"
 

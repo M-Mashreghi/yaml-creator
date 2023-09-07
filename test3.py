@@ -1,34 +1,24 @@
-import re
 import requests
 
-import requests
-import re
+# Replace this with the IP address you want to look up
+ip_address = "542.outline-vpn.cloud"
 
-# Extract the IP address from the given config
-config_str = "trojan://telegram-id-directvpn@13.39.146.155:22222?security=tls&sni=trj.rollingnext.co.uk&type=tcp#💚 M@M 💙 Paris France"
+# Send a request to ipinfo.io
+response = requests.get(f"https://ipinfo.io/{ip_address}/json")
 
-def find_loc_ss(config_str):
-        # Use regular expressions to extract the IP address from the string
-        ip_match = re.search(r'(?P<ip>\d+\.\d+\.\d+\.\d+)', config_str)
-        if ip_match:
-                ip_address = ip_match.group("ip")
-                # Use the ip-api.com API to get geolocation information
-                api_url = f"http://ip-api.com/json/{ip_address}"
-                response = requests.get(api_url)
+# Check if the response status code indicates success (200 OK)
+if response.status_code == 200:
+    try:
+        # Try to parse the response JSON
+        data = response.json()
+        
+        # Extract the location information
+        city = data.get("city", "N/A")
+        country = data.get("country", "N/A")
 
-                if response.status_code == 200:
-                    geolocation_data = response.json()
-                    city = geolocation_data.get("city")
-                    country = geolocation_data.get("country")
-
-                    if city and country:
-                        print(f"City: {city}, Country: {country}")
-                        return city , country
-                    else:
-                        print("City and country information not available.")
-                else:
-                    print("Failed to retrieve geolocation information.")
-        else:
-            print("No IP address found in the configuration string.")
-        return 0 , 0
-find_loc_ss(config_str)
+        print(f"City: {city}")
+        print(f"Country: {country}")
+    except requests.exceptions.JSONDecodeError:
+        print("Error: Unable to parse JSON response from the geolocation service.")
+else:
+    print(f"Error: HTTP status code {response.status_code} received. Unable to retrieve geolocation data.")

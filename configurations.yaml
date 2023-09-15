@@ -1,131 +1,277 @@
-configurations:
-- url: "trojan://telegram-id-privatevpns@3.71.252.84:22222?security=tls&sni=trj.rollingnext.co.uk&type=tcp#\U0001F49A\
-    \ M@M \U0001F499 Frankfurt am Main Germany"
-- url: "trojan://telegram-id-directvpn@13.39.146.155:22222?security=tls&sni=trj.rollingnext.co.uk&type=tcp#\U0001F49A\
-    \ M@M \U0001F499 Paris France"
-- url: "vless://bfbd0da6-d36b-4e72-8868-96f2eb51b9e3@all.vpncustomize.website:2096?security=tls&sni=uGGkffkuygV2raykufukfkyKuyk-irancel-Mokhabera-Mamad-raitel-MIc.Snapp.monster&type=grpc&serviceName=@VPNCUSTOMIZE#\U0001F49A\
-    \ M@M \U0001F499 "
-- url: "vless://c688395a-b36b-4071-974b-bc91ac2ad2c4@986join.outline-vpn.cloud:443?security=tls&sni=edtunnel-b6t.pages.dev&type=ws&path=/&host=edtunnel-b6t.pages.dev#\U0001F49A\
-    \ M@M \U0001F499 "
-- url: "vless://884f9b2c-f0c5-44dd-a68e-3e39ce93bb39@cf-wkrs-pages-vless-aoy.pages.dev:443?security=tls&sni=cf-wkrs-pages-vless-aoy.pages.dev&type=ws&path=/?ed%3D2048&host=cf-wkrs-pages-vless-aoy.pages.dev#\U0001F49A\
-    \ M@M \U0001F499 "
-- url: "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNTZmZDA0YS01ODAyLTQ3ODgtYmJhZi0zZWExNDE0MmU1OTc=@jp-03.feitucloud.com:10103#\U0001F49A\
-    \ M@M \U0001F499 "
-- url: "vless://d342d11e-d424-4583-b36e-524ab1f0afa4@12join.outline-vpn.cloud:2096?security=tls&sni=baipiao1.curly-train.pages.dev&type=ws&path=/?ed%3D2048&host=baipiao1.curly-train.pages.dev#\U0001F49A\
-    \ M@M \U0001F499 "
-- url: vmess://eyJhZGQiOiAiMzcuMTIwLjIwOS4xMjUiLCAiYWlkIjogIjY0IiwgImhvc3QiOiAiIiwgImlkIjogImRjMGNmMjJkLWUzNWMtNGI3Ny04OTI0LTk3N2Y2ODQ0OTA5YiIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiIiwgInBvcnQiOiAiNDk5ODIiLCAicHMiOiAiXHVkODNkXHVkYzlhIE1ATSBcdWQ4M2RcdWRjOTkgU3RvY2tob2xtIFN3ZWRlbiIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICIiLCAidiI6ICIyIn0=
-- url: "vless://884f9b2c-f0c5-44dd-a68e-3e39ce93bb39@542.outline-vpn.cloud:443?security=tls&sni=cf-wkrs-pages-vless-aoy.pages.dev&type=ws&path=/?ed%3D2048&host=cf-wkrs-pages-vless-aoy.pages.dev#\U0001F49A\
-    \ M@M \U0001F499 "
-- url: "vless://34de74d3-551a-4033-fc9c-fc36531b971a@104.31.16.65:2053?security=tls&sni=tel.RxV2ray.space&type=ws&path=/&host=tel.RxV2ray.space#\U0001F49A\
-    \ M@M \U0001F499 Toronto Canada"
-- url: "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNTZmZDA0YS01ODAyLTQ3ODgtYmJhZi0zZWExNDE0MmU1OTc=@ru-03.feitucloud.com:10103#\U0001F49A\
-    \ M@M \U0001F499 "
-- url: "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNTZmZDA0YS01ODAyLTQ3ODgtYmJhZi0zZWExNDE0MmU1OTc=@ru-02.feitucloud.com:10102#\U0001F49A\
-    \ M@M \U0001F499 "
-- url: "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNTZmZDA0YS01ODAyLTQ3ODgtYmJhZi0zZWExNDE0MmU1OTc=@ru-04.feitucloud.com:10103#\U0001F49A\
-    \ M@M \U0001F499 "
-- url: vmess://eyJhZGQiOiAiNHM0LmFsbGFhbnNlbGwub25saW5lIiwgImFpZCI6ICIwIiwgImhvc3QiOiAidGVsZXdlYmlvbi5jb20iLCAiaWQiOiAiMGQ2YmE2NmYtM2I1MS00MzI1LTg0ZDAtNGQ5ZGQ1MzFmMGU5IiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIvIiwgInBvcnQiOiAiODQ0MyIsICJwcyI6ICJcdWQ4M2RcdWRjOWEgTUBNIFx1ZDgzZFx1ZGM5OSBBdWJlcnZpbGxpZXJzIEZyYW5jZSIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJodHRwIiwgInYiOiAiMiJ9
-- url: "vless://34de74d3-551a-4033-fc9c-fc36531b971a@95.179.213.70:2053?security=tls&sni=tel.RxV2ray.space&type=ws&path=/&host=tel.RxV2ray.space#\U0001F49A\
-    \ M@M \U0001F499 Aubervilliers France"
-- url: vmess://eyJhZGQiOiAiZGcxYWFhLnF3cWEubGluayIsICJhaWQiOiAiMCIsICJob3N0IjogImRnMWFhYS5xd3FhLmxpbmsiLCAiaWQiOiAiOWI4YjIyM2QtNmU5Ni00ODdmLWFkMmItZWFjNDhhNGNjMGEyIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6ICI4MCIsICJwcyI6ICJcdWQ4M2RcdWRjOWEgTUBNIFx1ZDgzZFx1ZGM5OSBUb3JvbnRvIENhbmFkYSIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICIiLCAidiI6ICIyIn0=
-- url: "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8=@185.172.113.182:810#\U0001F49A\
-    \ M@M \U0001F499 "
-- url: "ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@145.239.1.100:6679#\U0001F49A M@M\
-    \ \U0001F499 Frankfurt am Main Germany"
-- url: "ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@51.77.53.200:4444#\U0001F49A M@M\
-    \ \U0001F499 Warsaw Poland"
-- url: "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3NWRyQUw3UGZDSXdRMnljVXVvRHNWMkxz@212.113.106.243:13022#\U0001F49A\
-    \ M@M \U0001F499 Vienna Austria"
-- url: "ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@54.36.174.181:8000#\U0001F49A\
-    \ M@M \U0001F499 Wroclaw Poland"
-- url: "ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@212.102.53.198:443#\U0001F49A M@M \U0001F499\
-    \ London United Kingdom"
-- url: "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQMnp4WFBld2xWM0JsZnFxWWlTdGh2dExj@212.113.106.243:12949#\U0001F49A\
-    \ M@M \U0001F499 Vienna Austria"
-- url: "ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@54.36.174.181:5000#\U0001F49A M@M\
-    \ \U0001F499 Wroclaw Poland"
-- url: "ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@145.239.1.100:8080#\U0001F49A\
-    \ M@M \U0001F499 Frankfurt am Main Germany"
-- url: "ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@ak1720.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:4444#\U0001F49A\
-    \ M@M \U0001F499 "
-- url: "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4a3VkNWhu@158.69.122.231:80#\U0001F49A\
-    \ M@M \U0001F499 Montreal Canada"
-- url: "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8=@185.172.113.182:811#\U0001F49A\
-    \ M@M \U0001F499 Tokyo Japan"
-- url: "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprc2pmdXchc29wIw==@23.150.248.191:9098#\U0001F49A\
-    \ M@M \U0001F499 Dallas United States"
-- url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@23.92.127.134:989#\U0001F49A\
-    \ M@M \U0001F499 Dublin Ireland"
-- url: "ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@37.19.222.214:443#\U0001F49A M@M\
-    \ \U0001F499 "
-- url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@121.127.46.147:989#\U0001F49A\
-    \ M@M \U0001F499 Stockholm Sweden"
-- url: "ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@143.244.58.102:443#\U0001F49A M@M\
-    \ \U0001F499 Prague Czechia"
-- url: "ss://YWVzLTI1Ni1jZmI6ZG91Yi5pbw==@54.199.83.239:2333#\U0001F49A M@M \U0001F499\
-    \ Tokyo Japan"
-- url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@193.182.144.240:989#\U0001F49A\
-    \ M@M \U0001F499 Tel Aviv Israel"
-- url: "ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M=@156.146.62.160:443#\U0001F49A M@M \U0001F499\
-    \ Zurich Switzerland"
-- url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@180.149.44.120:989#\U0001F49A\
-    \ M@M \U0001F499 Ucar Azerbaijan"
-- url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@74.121.191.98:989#\U0001F49A\
-    \ M@M \U0001F499 Edmonton Canada"
-- url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@37.143.129.230:989#\U0001F49A\
-    \ M@M \U0001F499 Helsinki Finland"
-- url: "ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M=@156.146.38.163:443#\U0001F49A M@M \U0001F499\
-    \ Dallas United States"
-- url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@213.169.137.221:989#\U0001F49A\
-    \ M@M \U0001F499 Nicosia Cyprus"
-- url: "ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@37.19.222.212:443#\U0001F49A M@M\
-    \ \U0001F499 Stockholm Sweden"
-- url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@89.44.197.156:989#\U0001F49A\
-    \ M@M \U0001F499 Sofia Bulgaria"
-- url: "vless://5f84c37f-f153-4abc-b634-859dc6bf90de@104.21.40.164:443?security=tls&sni=volatilizable.4kphotos.website&type=ws&path=/nimws&host=volatilizable.4kphotos.website#\U0001F49A\
-    \ M@M \U0001F499 Toronto Canada"
-- url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@46.183.185.15:989#\U0001F49A\
-    \ M@M \U0001F499 Skopje North Macedonia"
-- url: "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprc2pmdXchc29wIw==@69.50.95.251:9098#\U0001F49A\
-    \ M@M \U0001F499 "
-- url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@92.38.171.89:989#\U0001F49A\
-    \ M@M \U0001F499 Madrid Spain"
-- url: "ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M=@109.201.152.181:443#\U0001F49A M@M \U0001F499\
-    \ Rozendaal Netherlands"
-- url: "ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@212.102.53.80:443#\U0001F49A M@M \U0001F499\
-    \ London United Kingdom"
-- url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@5.188.226.187:989#\U0001F49A\
-    \ M@M \U0001F499 Milan Italy"
-- url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@5.188.6.8:989#\U0001F49A M@M\
-    \ \U0001F499 Kyiv Ukraine"
-- url: "ss://YWVzLTI1Ni1nY206VmRhSXRLWW1GZg==@130.162.53.215:24576#\U0001F49A M@M\
-    \ \U0001F499 Frankfurt am Main Germany"
-- url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@51.15.27.48:989#\U0001F49A M@M\
-    \ \U0001F499 Amsterdam Netherlands"
-- url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@77.72.5.113:989#\U0001F49A M@M\
-    \ \U0001F499 London United Kingdom"
-- url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@77.72.5.150:989#\U0001F49A M@M\
-    \ \U0001F499 London United Kingdom"
-- url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@185.90.61.153:989#\U0001F49A\
-    \ M@M \U0001F499 "
-- url: "ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@31.172.67.43:443#\U0001F49A M@M\
-    \ \U0001F499 Moscow Russia"
-- url: "vless://884f9b2c-f0c5-44dd-a68e-3e39ce93bb39@172.66.47.84:443?security=tls&sni=cf-wkrs-pages-vless-aoy.pages.dev&type=ws&path=/?ed%3D2048&host=cf-wkrs-pages-vless-aoy.pages.dev#\U0001F49A\
-    \ M@M \U0001F499 Toronto Canada"
-- url: "ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@212.102.53.78:443#\U0001F49A M@M \U0001F499\
-    \ London United Kingdom"
-- url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@185.180.12.81:989#\U0001F49A\
-    \ M@M \U0001F499 Vienna Austria"
-- url: "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@192.36.27.116:989#\U0001F49A\
-    \ M@M \U0001F499 Ballerup Municipality Denmark"
-- url: vmess://eyJhZGQiOiAiNjcuMjEuOTUuNzMiLCAiYWlkIjogIjY0IiwgImhvc3QiOiAiIiwgImlkIjogIjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiIiwgInBvcnQiOiAiNTMzMTQiLCAicHMiOiAiXHVkODNkXHVkYzlhIE1ATSBcdWQ4M2RcdWRjOTkgTG9zIEFuZ2VsZXMgVW5pdGVkIFN0YXRlcyIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICIiLCAidiI6ICIyIn0=
-- url: vmess://eyJhZGQiOiAiMTQyLjQuMTI2LjI1IiwgImFpZCI6ICI2NCIsICJob3N0IjogIiIsICJpZCI6ICI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJwb3J0IjogIjUxNzE1IiwgInBzIjogIlx1ZDgzZFx1ZGM5YSBNQE0gXHVkODNkXHVkYzk5IFNhbiBKb3NlIFVuaXRlZCBTdGF0ZXMiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiIiwgInYiOiAiMiJ9
-- url: vmess://eyJhZGQiOiAiMTM3LjE3NS4yMi4xODciLCAiYWlkIjogIjY0IiwgImhvc3QiOiAiIiwgImlkIjogIjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiIiwgInBvcnQiOiAiNTM5OTkiLCAicHMiOiAiXHVkODNkXHVkYzlhIE1ATSBcdWQ4M2RcdWRjOTkgU2FuIEpvc2UgVW5pdGVkIFN0YXRlcyIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICIiLCAidiI6ICIyIn0=
-- url: "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGbGp1c0dYYVdoZThtQUZhcXdvdHBP@51.141.11.19:39550#\U0001F49A\
-    \ M@M \U0001F499 Cardiff United Kingdom"
-- url: vmess://eyJhZGQiOiAiMTU2LjIyNS42Ny40NyIsICJhaWQiOiAiNjQiLCAiaG9zdCI6ICIiLCAiaWQiOiAiM2NhOTEyZGEtNmFjMi00MThmLWI5Y2YtNDViNmY2OTQ1NzliIiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIiLCAicG9ydCI6ICI0OTIyNCIsICJwcyI6ICJcdWQ4M2RcdWRjOWEgTUBNIFx1ZDgzZFx1ZGM5OSBXYXNoaW5ndG9uIFVuaXRlZCBTdGF0ZXMiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiIiwgInYiOiAiMiJ9
-- url: "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqOE9WNXluRzZlcWdrQmpxMUU2YlFt@77.91.122.158:80#\U0001F49A\
-    \ M@M \U0001F499 Meppel Netherlands"
-- url: "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvYkt2OGx6c0xEbUVZU3BxNW1PaUo4@51.141.8.141:26031#\U0001F49A\
-    \ M@M \U0001F499 Cardiff United Kingdom"
-- url: vmess://eyJhZGQiOiAiMTYyLjE1OS41OC4yMTgiLCAiYWlkIjogIjAiLCAiaG9zdCI6ICJubDEwZ2Jwcy42NTc3NjE3Lnh5eiIsICJpZCI6ICJjZDBjNTcwZi03NTdjLTQ4ZDItYTFiNi1jMDk0MDQzMWNjNDciLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogIjgwIiwgInBzIjogIlx1ZDgzZFx1ZGM5YSBNQE0gXHVkODNkXHVkYzk5IFRvcm9udG8gQ2FuYWRhIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogIiIsICJ2IjogIjIifQ==
+
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+bind-address: "*"
+ipv6: false
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  listen: 0.0.0.0:7894
+  fallback-filter:
+    geoip: false
+    ipcidr:
+    - 240.0.0.0/4
+  nameserver:
+    - https://puredns.org/dns-query
+    - tls://puredns.org:853
+  fallback:
+    - tcp://108.137.44.39
+    - tcp://108.137.44.9
+    - 108.137.44.39
+    - 108.137.44.9
+tun:
+  enable: true
+  stack: system 
+  macOS-auto-route: true
+  macOS-auto-detect-interface: true
+  dns-hijack:
+    - tcp://108.137.44.39:53
+experimental:
+  interface-name: en0
+
+proxies:
+  - {name: 💚 M@M 💙 Washington United States, server: 156.225.67.38, port: 443, type: vmess, uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b, sni: www.86139317.xyz, alterId: 64, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /path/1692256902430, headers: {Host: www.86139317.xyz}}}
+  - {name: 💚 M@M 💙 Tokyo Japan, server: 185.160.24.17, port: 44522, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, sni: , alterId: 64, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Seoul South Korea, server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, sni: , alterId: 64, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Nuremberg Germany, server: 128.140.118.113, port: 443, type: vmess, uuid: 090e504f-cf32-42d0-c7fc-b99fc714a503, sni: zula.ir, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: zula.ir}}}
+  - {name: 💚 M@M 💙 San Jose United States, server: 137.175.22.187, port: 53999, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, sni: , alterId: 64, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Los Angeles United States, server: 107.167.30.149, port: 43900, type: vmess, uuid: 58e560b4-bba6-4843-be5f-83321022fa0d, sni: , alterId: 64, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Toronto Canada, server: 104.21.50.177, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, sni: alvvin.click, alterId: 1, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: linkvws, headers: {Host: alvvin.click}}}
+  - {name: 💚 M@M 💙 San Jose United States 75, server: 142.4.126.25, port: 51715, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, sni: , alterId: 64, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Helsinki Finland, server: 95.217.130.192, port: 80, type: vmess, uuid: a2e05561-6b6e-4e4a-8b5f-6618a96bb55a, sni: a, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: a}}}
+  - {name: 💚 M@M 💙 Frankfurt Am Main Germany, server: 91.107.216.69, port: 80, type: vmess, uuid: 907dbdfc-6cb5-4471-bc1e-8bdf449a1c92, sni: a, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: a}}}
+  - {name: 💚 M@M 💙 San Jose United States 54, server: 142.4.126.26, port: 51715, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, sni: , alterId: 64, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 San Jose United States 80, server: 142.4.126.23, port: 51715, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, sni: , alterId: 64, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Santa Clarita United States, server: 108.166.203.181, port: 44945, type: vmess, uuid: 268a491b-764c-44d1-81a4-30de16130867, sni: , alterId: 64, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Santa Clarita United States 59, server: 108.166.203.183, port: 44945, type: vmess, uuid: 268a491b-764c-44d1-81a4-30de16130867, sni: , alterId: 64, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Helsinki Finland 45, server: 65.109.184.47, port: 56420, type: vmess, uuid: 130a4d57-d5a9-4e30-9a3a-46e23109bd1a, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: }}}
+  - {name: 💚 M@M 💙 San Jose United States 2, server: 142.4.126.22, port: 51715, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, sni: , alterId: 64, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Falkenstein Germany, server: 49.13.83.55, port: 2083, type: vmess, uuid: f6f50e41-2e2f-4798-df25-6dcb5f83bb9e, sni: internet.life.com.by, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
+  - {name: 💚 M@M 💙 Falkenstein Germany 54, server: 49.13.85.201, port: 80, type: vmess, uuid: 1cc27a42-8714-4d99-b77c-c43d05f30203, sni: a, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: a}}}
+  - {name: 💚 M@M 💙 Falkenstein Germany 3, server: 49.12.13.219, port: 80, type: vmess, uuid: 36b23edb-f228-4d78-849b-ea8b1a21a9b9, sni: a, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: a}}}
+  - {name: 💚 M@M 💙 Falkenstein Germany 73, server: 49.12.245.77, port: 80, type: vmess, uuid: 89b896f1-a8ba-4108-8e98-73b1b248e1cf, sni: a, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: a}}}
+  - {name: 💚 M@M 💙 Falkenstein Germany 60, server: 49.12.75.222, port: 80, type: vmess, uuid: 3dea3226-4c94-4736-88cf-9b9e08ab012d, sni: a, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: a}}}
+  - {name: 💚 M@M 💙 Munich Germany, server: 167.235.239.89, port: 80, type: vmess, uuid: 725f829c-d14d-423c-9905-9520648db8fa, sni: a, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: a}}}
+  - {name: 💚 M@M 💙 Nuremberg Germany 41, server: 159.69.114.249, port: 2083, type: vmess, uuid: f6f50e41-2e2f-4798-df25-6dcb5f83bb9e, sni: internet.life.com.by, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
+  - {name: 💚 M@M 💙 Falkenstein Germany 30, server: 49.12.216.4, port: 80, type: vmess, uuid: b8bfba02-e6f4-4357-b4ff-f2b28b33f99d, sni: a, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: a}}}
+  - {name: 💚 M@M 💙 Frankfurt am Main Germany, server: 23.158.56.89, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Dongcheng China, server: 137.175.29.33, port: 53999, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, sni: , alterId: 64, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Falkenstein Germany 82, server: 49.13.81.162, port: 80, type: vmess, uuid: be78128b-97df-4895-9798-d80e54193441, sni: a, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: a}}}
+  - {name: 💚 M@M 💙 Falkenstein Germany 56, server: 49.13.64.92, port: 80, type: vmess, uuid: 282af751-5ffa-4c18-bd76-f9bdeb0ab9fa, sni: a, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: a}}}
+  - {name: 💚 M@M 💙 Falkenstein Germany 10, server: 49.13.84.108, port: 80, type: vmess, uuid: caaad80d-f3d0-4f6b-8443-5522fc9e5859, sni: a, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: a}}}
+  - {name: 💚 M@M 💙 Falkenstein Germany 85, server: 49.13.54.96, port: 80, type: vmess, uuid: 0825a0d5-5e65-4f9f-8d78-d7cec152c279, sni: internet.life.com.by, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
+  - {name: 💚 M@M 💙 Nuremberg Germany 27, server: 159.69.240.52, port: 80, type: vmess, uuid: 2249edd9-a1cb-4196-b794-a7bc83e69e99, sni: a, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: a}}}
+  - {name: 💚 M@M 💙 Nuremberg Germany 97, server: 128.140.117.172, port: 443, type: vmess, uuid: 254954c6-f115-4703-e196-41ba04a4a16b, sni: internet.life.com.by, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
+  - {name: 💚 M@M 💙 Nuremberg Germany 64, server: 159.69.117.166, port: 80, type: vmess, uuid: 17f0d159-a527-4430-a22d-5fb82ce131c2, sni: a, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: a}}}
+  - {name: 💚 M@M 💙 Falkenstein Germany 12, server: 49.13.78.175, port: 80, type: vmess, uuid: e74fd09b-2959-4a9d-a84f-924178cfdd15, sni: a, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: a}}}
+  - {name: 💚 M@M 💙  88, server: 116.203.41.208, port: 2083, type: vmess, uuid: 47b93627-da5f-4f2a-bcd6-f44ac26b90c4, sni: internet.life.com.by, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
+  - {name: 💚 M@M 💙 Ashburn United States, server: 5.161.188.8, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: internet.life.com.by, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
+  - {name: 💚 M@M 💙  37, server: 167.235.252.166, port: 80, type: vmess, uuid: 3e8d3c3b-5a40-4f81-b083-e9ccf6e69874, sni: a, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: a}}}
+  - {name: 💚 M@M 💙  43, server: 139.59.137.56, port: 443, type: vmess, uuid: 9653d358-eb33-47ae-9ac7-e21f0e971d6f, sni: internet.life.com.by, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
+  - {name: 💚 M@M 💙 Nuremberg Germany 47, server: 167.235.65.134, port: 2083, type: vmess, uuid: 90e968f5-58a5-42ce-a2de-c81894054563, sni: internet.life.com.by, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
+  - {name: 💚 M@M 💙  12, server: 137.175.58.132, port: 53999, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, sni: , alterId: 64, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙  33, server: 5.161.92.194, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: internet.life.com.by, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
+  - {name: 💚 M@M 💙 Santa Clara United States, server: 137.184.14.231, port: 8880, type: vmess, uuid: fd69b985-19fd-4cd2-e588-8e321d3cdea5, sni: internet.life.com.by, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
+  - {name: 💚 M@M 💙 Nuremberg Germany 91, server: 128.140.121.63, port: 80, type: vmess, uuid: c5162b81-2d3a-42b8-9892-1ca7013eb03f, sni: a, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: a}}}
+  - {name: 💚 M@M 💙  43, server: 137.184.12.78, port: 8880, type: vmess, uuid: fd69b985-19fd-4cd2-e588-8e321d3cdea5, sni: internet.life.com.by, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
+  - {name: 💚 M@M 💙  34, server: 5.161.84.5, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: internet.life.com.by, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
+  - {name: 💚 M@M 💙  99, server: 5.161.89.123, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: internet.life.com.by, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
+  - {name: 💚 M@M 💙 London United Kingdom, server: ophelia.mom, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, sni: ophelia.mom, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
+  - {name: 💚 M@M 💙 London United Kingdom 16, server: odelia.autos, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, sni: odelia.autos, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: linkvws, headers: {Host: odelia.autos}}}
+  - {name: 💚 M@M 💙 Amsterdam Netherlands, server: edeen.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, sni: , alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: linkvws, headers: {Host: }}}
+  - {name: 💚 M@M 💙  8, server: 49.13.23.221, port: 443, type: vmess, uuid: 254954c6-f115-4703-e196-41ba04a4a16b, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Limburg an der Lahn Germany, server: 135.125.134.177, port: 443, type: vmess, uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 45.159.216.33, server: 45.159.216.33, port: 443, udp: true, type: trojan, password: 5b000ca0-89fd-4f62-bd1a-a10c0b5dc026, sni: , skip-cert-verify: true}
+  - {name: 💚 M@M 💙 Toronto Canada 53, server: 172.67.34.218, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, sni: vcus1.vpn66.eu.org, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}}
+  - {name: 💚 M@M 💙 Ashburn United States 95, server: 5.161.69.95, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Washington United States 66, server: 5.161.78.253, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Ashburn United States 97, server: 5.161.227.211, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Ashburn United States 95, server: 5.161.122.79, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Ashburn United States 19, server: 5.161.118.1, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Ashburn United States 99, server: 5.161.211.45, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Atlanta United States, server: 155.138.210.17, port: 80, type: vmess, uuid: 3e5c5fb5-0f72-4d82-ed41-18f4614934b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Ashburn United States 67, server: 5.161.97.181, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Washington United States 78, server: 5.161.67.75, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Ashburn United States 39, server: 5.161.195.79, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Falkenstein Germany 96, server: 88.99.13.119, port: 80, type: vmess, uuid: 13037e88-b951-49b2-b66e-097a694513ff, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Falkenstein Germany 59, server: 168.119.176.0, port: 80, type: vmess, uuid: 4b729960-b8fb-411f-9566-122d0eed9506, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Ashburn United States 94, server: 5.161.193.105, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Washington United States 5, server: 5.161.73.255, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Ashburn United States 44, server: 5.161.198.106, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Washington United States 20, server: 5.161.75.180, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Ashburn United States 2, server: 5.161.56.136, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Toronto Canada 7, server: 142.93.144.99, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Falkenstein Germany 30, server: 49.13.85.134, port: 443, type: vmess, uuid: 254954c6-f115-4703-e196-41ba04a4a16b, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Nuremberg Germany 88, server: 188.34.194.199, port: 2083, type: vmess, uuid: 47b93627-da5f-4f2a-bcd6-f44ac26b90c4, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Helsinki Finland 42, server: 95.216.169.153, port: 2083, type: vmess, uuid: 90e968f5-58a5-42ce-a2de-c81894054563, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Nuremberg Germany 72, server: 88.198.150.106, port: 2083, type: vmess, uuid: 90e968f5-58a5-42ce-a2de-c81894054563, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Ashburn United States 35, server: 5.161.193.8, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Ashburn United States 53, server: 5.161.117.104, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Ashburn United States 5, server: 5.161.197.29, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Ashburn United States 25, server: 5.161.182.221, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Ashburn United States 94, server: 5.161.192.105, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Ashburn United States 37, server: 5.161.59.76, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Ashburn United States 24, server: 5.161.116.116, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Ashburn United States 10, server: 5.161.53.53, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Riga Latvia, server: sw-195.123.210.166.nip.io, port: 443, type: vmess, uuid: 4f2f9a7d-c67e-4852-9333-c740a012f07a, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Makati City Philippines, server: vc-109.248.25.59.nip.io, port: 29064, type: vmess, uuid: 8958440c-aa86-4ff1-8e88-5c7a052d5961, sni: internet.life.com.by, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /ss, headers: {Host: internet.life.com.by}}}
+  - {name: 💚 M@M 💙 Prague Czechia, server: sw-62.233.57.38.nip.io, port: 443, type: vmess, uuid: c66d1c03-ef5e-4994-a7a4-d41855867f13, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Bucharest Romania, server: sw-82.117.255.92.nip.io, port: 443, type: vmess, uuid: b91bf074-faa1-4ce2-9e9e-e9150a86d0cf, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Tallinn Estonia, server: sw-37.252.5.234.nip.io, port: 443, type: vmess, uuid: 8989986e-2495-405b-8a46-d1720318e188, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Seoul South Korea 43, server: 3.37.89.182, port: 443, type: vmess, uuid: dcd146ed-19fa-4aeb-a8c2-283fe3aa3888, sni: internet.life.com.by, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
+  - {name: 💚 M@M 💙 Victoria Canada, server: sw-15.235.48.92.nip.io, port: 8443, type: vmess, uuid: c295b9ac-3ae4-4aa2-aed7-f12dd7d04f0b, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Hong Kong Hong Kong, server: 8.210.128.146, port: 36788, type: vmess, uuid: 34ae890c-eada-4160-f7ba-a2d9fba215af, sni: internet.life.com.by, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
+  - {name: 💚 M@M 💙 Toronto Canada 76, server: 178.128.237.6, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Toronto Canada 4, server: prxm-142.93.144.99.nip.io, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Limburg an der Lahn Germany 8, server: sw-135.125.134.130.nip.io, port: 443, type: vmess, uuid: dda0ff43-60ab-42fe-9bd4-9113b35945ee, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Limburg an der Lahn Germany 72, server: sw-135.125.135.41.nip.io, port: 443, type: vmess, uuid: 0d16efe1-cb91-45ba-914f-25047a51f4e7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Limburg an der Lahn Germany 98, server: sw-141.95.75.148.nip.io, port: 443, type: vmess, uuid: ce76d32e-3bc7-4a4f-bf2c-abddb893bed7, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Limburg an der Lahn Germany 26, server: sw-135.125.134.177.nip.io, port: 443, type: vmess, uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Limburg an der Lahn Germany 71, server: 135.125.135.63, port: 443, type: vmess, uuid: 2ebed3b4-de9b-437c-a962-5ce12523b0f0, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 Limburg an der Lahn Germany 65, server: sw-135.125.135.241.nip.io, port: 443, type: vmess, uuid: b20b983c-329d-4fe2-a749-f9748d547c5f, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 New York United States, server: sw-89.116.38.171.nip.io, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 New York United States 4, server: sw-89.116.38.190.nip.io, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 New York United States 9, server: sw-89.116.38.176.nip.io, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 New York United States 60, server: sw-89.116.38.180.nip.io, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 New York United States 61, server: sw-89.116.38.197.nip.io, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 New York United States 2, server: sw-89.116.38.182.nip.io, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 New York United States 64, server: sw-89.116.38.187.nip.io, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 New York United States 4, server: sw-89.116.38.184.nip.io, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 New York United States 20, server: sw-89.116.38.192.nip.io, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 New York United States 64, server: sw-89.116.38.203.nip.io, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 New York United States 10, server: sw-89.116.38.175.nip.io, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 New York United States 49, server: sw-89.116.38.206.nip.io, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 New York United States 51, server: sw-89.116.38.202.nip.io, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 New York United States 51, server: sw-89.116.38.174.nip.io, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+  - {name: 💚 M@M 💙 New York United States 20, server: sw-89.116.38.198.nip.io, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: tcp, ws-opts: {path: , headers: {Host: }}}
+
+proxy-groups:
+  - name: sshkit-generator
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    proxies:
+      - 💚 M@M 💙 Washington United States
+      - 💚 M@M 💙 Tokyo Japan
+      - 💚 M@M 💙 Seoul South Korea
+      - 💚 M@M 💙 Nuremberg Germany
+      - 💚 M@M 💙 San Jose United States
+      - 💚 M@M 💙 Los Angeles United States
+      - 💚 M@M 💙 Toronto Canada
+      - 💚 M@M 💙 San Jose United States 75
+      - 💚 M@M 💙 Helsinki Finland
+      - 💚 M@M 💙 Frankfurt Am Main Germany
+      - 💚 M@M 💙 San Jose United States 54
+      - 💚 M@M 💙 San Jose United States 80
+      - 💚 M@M 💙 Santa Clarita United States
+      - 💚 M@M 💙 Santa Clarita United States 59
+      - 💚 M@M 💙 Helsinki Finland 45
+      - 💚 M@M 💙 San Jose United States 2
+      - 💚 M@M 💙 Falkenstein Germany
+      - 💚 M@M 💙 Falkenstein Germany 54
+      - 💚 M@M 💙 Falkenstein Germany 3
+      - 💚 M@M 💙 Falkenstein Germany 73
+      - 💚 M@M 💙 Falkenstein Germany 60
+      - 💚 M@M 💙 Munich Germany
+      - 💚 M@M 💙 Nuremberg Germany 41
+      - 💚 M@M 💙 Falkenstein Germany 30
+      - 💚 M@M 💙 Frankfurt am Main Germany
+      - 💚 M@M 💙 Dongcheng China
+      - 💚 M@M 💙 Falkenstein Germany 82
+      - 💚 M@M 💙 Falkenstein Germany 56
+      - 💚 M@M 💙 Falkenstein Germany 10
+      - 💚 M@M 💙 Falkenstein Germany 85
+      - 💚 M@M 💙 Nuremberg Germany 27
+      - 💚 M@M 💙 Nuremberg Germany 97
+      - 💚 M@M 💙 Nuremberg Germany 64
+      - 💚 M@M 💙 Falkenstein Germany 12
+      - 💚 M@M 💙  88
+      - 💚 M@M 💙 Ashburn United States
+      - 💚 M@M 💙  37
+      - 💚 M@M 💙  43
+      - 💚 M@M 💙 Nuremberg Germany 47
+      - 💚 M@M 💙  12
+      - 💚 M@M 💙  33
+      - 💚 M@M 💙 Santa Clara United States
+      - 💚 M@M 💙 Nuremberg Germany 91
+      - 💚 M@M 💙  43
+      - 💚 M@M 💙  34
+      - 💚 M@M 💙  99
+      - 💚 M@M 💙 London United Kingdom
+      - 💚 M@M 💙 London United Kingdom 16
+      - 💚 M@M 💙 Amsterdam Netherlands
+      - 💚 M@M 💙  8
+      - 💚 M@M 💙 Limburg an der Lahn Germany
+      - 45.159.216.33
+      - 💚 M@M 💙 Toronto Canada 53
+      - 💚 M@M 💙 Ashburn United States 95
+      - 💚 M@M 💙 Washington United States 66
+      - 💚 M@M 💙 Ashburn United States 97
+      - 💚 M@M 💙 Ashburn United States 95
+      - 💚 M@M 💙 Ashburn United States 19
+      - 💚 M@M 💙 Ashburn United States 99
+      - 💚 M@M 💙 Atlanta United States
+      - 💚 M@M 💙 Ashburn United States 67
+      - 💚 M@M 💙 Washington United States 78
+      - 💚 M@M 💙 Ashburn United States 39
+      - 💚 M@M 💙 Falkenstein Germany 96
+      - 💚 M@M 💙 Falkenstein Germany 59
+      - 💚 M@M 💙 Ashburn United States 94
+      - 💚 M@M 💙 Washington United States 5
+      - 💚 M@M 💙 Ashburn United States 44
+      - 💚 M@M 💙 Washington United States 20
+      - 💚 M@M 💙 Ashburn United States 2
+      - 💚 M@M 💙 Toronto Canada 7
+      - 💚 M@M 💙 Falkenstein Germany 30
+      - 💚 M@M 💙 Nuremberg Germany 88
+      - 💚 M@M 💙 Helsinki Finland 42
+      - 💚 M@M 💙 Nuremberg Germany 72
+      - 💚 M@M 💙 Ashburn United States 35
+      - 💚 M@M 💙 Ashburn United States 53
+      - 💚 M@M 💙 Ashburn United States 5
+      - 💚 M@M 💙 Ashburn United States 25
+      - 💚 M@M 💙 Ashburn United States 94
+      - 💚 M@M 💙 Ashburn United States 37
+      - 💚 M@M 💙 Ashburn United States 24
+      - 💚 M@M 💙 Ashburn United States 10
+      - 💚 M@M 💙 Riga Latvia
+      - 💚 M@M 💙 Makati City Philippines
+      - 💚 M@M 💙 Prague Czechia
+      - 💚 M@M 💙 Bucharest Romania
+      - 💚 M@M 💙 Tallinn Estonia
+      - 💚 M@M 💙 Seoul South Korea 43
+      - 💚 M@M 💙 Victoria Canada
+      - 💚 M@M 💙 Hong Kong Hong Kong
+      - 💚 M@M 💙 Toronto Canada 76
+      - 💚 M@M 💙 Toronto Canada 4
+      - 💚 M@M 💙 Limburg an der Lahn Germany 8
+      - 💚 M@M 💙 Limburg an der Lahn Germany 72
+      - 💚 M@M 💙 Limburg an der Lahn Germany 98
+      - 💚 M@M 💙 Limburg an der Lahn Germany 26
+      - 💚 M@M 💙 Limburg an der Lahn Germany 71
+      - 💚 M@M 💙 Limburg an der Lahn Germany 65
+      - 💚 M@M 💙 New York United States
+      - 💚 M@M 💙 New York United States 4
+      - 💚 M@M 💙 New York United States 9
+      - 💚 M@M 💙 New York United States 60
+      - 💚 M@M 💙 New York United States 61
+      - 💚 M@M 💙 New York United States 2
+      - 💚 M@M 💙 New York United States 64
+      - 💚 M@M 💙 New York United States 4
+      - 💚 M@M 💙 New York United States 20
+      - 💚 M@M 💙 New York United States 64
+      - 💚 M@M 💙 New York United States 10
+      - 💚 M@M 💙 New York United States 49
+      - 💚 M@M 💙 New York United States 51
+      - 💚 M@M 💙 New York United States 51
+      - 💚 M@M 💙 New York United States 20
+
+rules:
+ - MATCH,sshkit-generator
